@@ -1,0 +1,21 @@
+/* Editable Light Theme. Semantic red warning styles on individual controls remain. */
+QToolTip { color: #202b38; background: #ffffff; border: 1px solid #ccd4df; }
+TitleBar { background: #edf1f5; border: none; }
+QTabWidget::pane { border: 1px solid #ccd4df; background: #f5f7fa; }
+QTabBar::tab { color: #344253; background: #e8edf3; padding: 6px 10px; border: 1px solid #ccd4df; }
+QTabBar::tab:selected { color: #176bc0; background: #ffffff; border-bottom: 2px solid #2a82da; }
+QTabBar::tab:hover:!selected { background: #dfeaf7; }
+QTabBar::tab:disabled { color: #929ba6; }
+QLineEdit, QTextEdit, QListView, QTableView, QComboBox { color: #202b38; background: #ffffff; selection-background-color: #2a82da; selection-color: #ffffff; }
+QLineEdit { border: 1px solid #bdc8d6; border-radius: 2px; padding: 2px; }
+QLineEdit:focus { border-color: #2a82da; }
+QLineEdit:disabled { color: #929ba6; background: #eef1f5; }
+QHeaderView::section { color: #344253; background: #e8edf3; border: 1px solid #ccd4df; padding: 3px; }
+QTableView { gridline-color: #dce3ec; alternate-background-color: #f0f3f7; }
+QTableView::item:hover { color: #202b38; background: #e2efff; }
+QTableView::item:selected { color: #ffffff; background: #2a82da; }
+QGroupBox { border: 1px solid #ccd4df; border-radius: 3px; margin-top: 8px; }
+QGroupBox::title { subcontrol-origin: margin; left: 8px; padding: 0 3px; }
+QPushButton:hover, QToolButton:hover { background: #e2efff; }
+QProgressBar { border: 1px solid #ccd4df; background: #ffffff; color: #202b38; text-align: center; }
+QProgressBar::chunk { background: #2a82da; }
